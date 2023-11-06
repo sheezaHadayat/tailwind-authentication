@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* custom.css */
+
+@media (min-width: 900px) {
+    .md\:bg-blue-500 {
+      background-color: #3498db;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .lg\:bg-green-500 {
+      background-color: #2ecc71;
+    }
+  }
+  

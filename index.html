@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.5/dist/tailwind.min.css" rel="stylesheet">
     <title>LogIn</title>
 </head>
 
 <!-- body -->
-<body class=" h-full w-full bg-[#F6F8FA] ">
+<body class=" lg:h-full w-full md:h-full md:w-full sm:w-1/2 sm:h-1/2 bg-[#F6F8FA] ">
 
 
 
     <!-- header -->
     <div class="text-center text-black text-base font-medium font-['Lato'] mb-[23px] mt-[127px]">Welcome to Agent Taskflow!</div>
    
-   <!-- Google button -->
+   <!-- signup button -->
    <div class="flex justify-center items-center" >
 
    <div class="flex justify-center items-center w-[396px] h-[59px] bg-white rounded-[50px] shadow mb-[68px]">
 
     <div class="flex justify-center items-center w-[190px] h-[47px] bg-white rounded-[500px]">
-        <a href="/login" class=" text-black text-base font-medium font-['Lato'] ">Log In</a>
+        <a href="#" class=" text-black text-base font-medium font-['Lato'] ">Log In</a>
     </div>
 
     <div class="flex justify-center items-center w-[190px] h-[47px] bg-violet-500 rounded-[500px] ">
-        <a href="/signup" class="text-white text-base font-bold font-['Lato'] ">Sign Up</a>
+        <a href="signup.html" class="text-white text-base font-bold font-['Lato'] ">Sign Up</a>
     </div>
 
    </div>
@@ -52,8 +53,7 @@
            
         </button>
 
-
-
+        
         <!-- input fields -->
 
 
@@ -72,9 +72,14 @@
        
        <input type="text" placeholder="Password" class="w-[358px] h-[50px] bg-white rounded-[10px] shadow border border-violet-500 p-2 ml-[19px]">
 
-       <button id="verificationButton" class="w-[358px] h-[50px] bg-violet-500 rounded-[10px] mt-[54px] ml-[19px]">
-        <div class="text-white text-base font-bold font-['Lato']">Create Account</div>
-       </button>
+       <a href="signup.html" class="inline-block w-[358px] h-[50px] bg-violet-500 rounded-[10px] mt-[54px] ml-[19px] p-3 text-white text-center text-base font-bold font-Lato">
+        Create Account
+      </a>
+      
+
+      <!-- <a href="/signup.html"><button class="w-[358px] h-[50px] bg-violet-500 rounded-[10px] mt-[54px] ml-[19px] text-white text-center text-base font-bold font-['Lato']" onclick="window.location.href='signup.html'">
+        Create Account
+      </button></a> -->
     </div>
 
     </form>
@@ -90,15 +95,15 @@
 <div class="flex justify-center items-center">
     <footer class="mt-[119px] mb-[25px]">
         <span class="text-black text-xs font-normal font-['Lato']">By signing up, you agree to our </span>
-         <a href="/privacy" class="text-black text-xs font-normal font-['Lato'] underline">Privacy Policy</a>
+         <a href="privacy" class="text-black text-xs font-normal font-['Lato'] underline">Privacy Policy</a>
 
         <span class="text-black text-xs font-normal font-['Lato']"> and </span>
-        <a href="/terms" class="text-black text-xs font-normal font-['Lato'] underline">Terms of Service.</a>
+        <a href="terms" class="text-black text-xs font-normal font-['Lato'] underline">Terms of Service.</a>
         
     </footer>
 </div>
 
-    
+
 
 
 </body>
